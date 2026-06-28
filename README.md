@@ -93,7 +93,7 @@ Swagger UI: `http://localhost:8000/docs`
 curl http://localhost:8000/fon/YAY?gun=30
 
 # AI yorumu
-curl http://localhost:8000/fon/YAY/ai-yorum
+curl http://localhost:8000/fon/YAY/yorum
 
 # Anapara hesabı  
 curl "http://localhost:8000/fon/YAY/getiri-hesapla?anapara=10000&gun=30"
@@ -109,3 +109,17 @@ curl "http://localhost:8000/fon/YAY/getiri-hesapla?anapara=10000&gun=30"
 ## 📄 Lisans
 
 MIT
+
+## 📸 Görsel Önizleme
+
+### Swagger UI - Otomatik Dokümantasyon
+![Swagger UI](docs/swagger-ui.png)
+
+### AI Destekli Yorum Endpoint'i
+![AI Yorum](docs/ai-yorum.png)
+
+### Çoklu Fon Karşılaştırma
+![Karşılaştırma](docs/karsilastir.png)
+
+### Getiri Hesaplama
+![Getiri Hesaplama](docs/fon-getiri.png)
