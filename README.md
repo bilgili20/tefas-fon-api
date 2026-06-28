@@ -50,7 +50,7 @@ Türkiye yatırım fonları için AI destekli analiz REST API'si.
 ### 1. Repo'yu klonla
 
 ```bash
-git clone https://github.com/HuseyinBilgili/tefas-api.git
+git clone https://github.com/bilgili20/tefas-fon-api
 cd tefas-api
 ```
 
