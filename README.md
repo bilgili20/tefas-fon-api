@@ -42,7 +42,7 @@ Türkiye yatırım fonları için AI destekli analiz REST API'si.
 | GET | `/fon/{kod}/getiri` | Getiri + volatilite |
 | GET | `/fon/{kod}/buyukluk` | Portföy büyüklüğü |
 | GET | `/fon/{kod}/getiri-hesapla?anapara=X` | Anapara hesabı |
-| GET | `/fon/{kod}/ai-yorum` | AI destekli yorum |
+| GET | `/fon/{kod}/yorum` | AI destekli yorum |
 | GET | `/karsilastir?kodlar=A,B,C` | Çoklu karşılaştırma |
 
 ## 🚀 Kurulum
