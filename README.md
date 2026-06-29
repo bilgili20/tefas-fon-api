@@ -11,14 +11,8 @@ Türkiye yatırım fonları için AI destekli analiz REST API'si.
 - **Çoklu Karşılaştırma** — Birden fazla fon kıyaslama
 
 ## Mimari
-```mermaid
-graph TD
-    Kullanici[Kullanıcı] --> FastAPI[FastAPI Backend]
-    FastAPI <--> SQLite[(SQLite Cache)]
-    FastAPI --> Tefas[Tefas API]
-    Tefas --> SQLite
-    FastAPI --> Groq[Groq LLM API]
-``` text
+![Architecture Diagram](docs/architecture.png)
+
 
 ## 🛠️ Tech Stack
 
